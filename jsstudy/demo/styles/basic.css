@@ -1,0 +1,31 @@
+@charset "utf-8" body {
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 1eml
+}
+
+header {
+    background-color: black;
+}
+
+nav {
+    background-image: url(../images/header navbar.gif);
+    background-position: bottom left;
+    background-repeat: repeat-x;
+    border-width: .1em;
+    border-style: solid;
+    border-bottom-width: 0;
+    border-top-width: 0;
+    padding-left: 10%;
+}
+
+nav ul {
+    width: 100%;
+    overflow: hidden;
+    border-left-width: .1em;
+    border-left-style: solid;
+}
+
+nav ul li {
+display: inline;
+}
